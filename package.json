@@ -1,6 +1,6 @@
 {
   "name": "@hadenlabs/terraform-sentry-project",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "terraform-sentry-project for hadenlabs",
   "repository": "ssh://git@github.com/hadenlabs/terraform-sentry-project.git",
   "author": "Luis Mayta <slovacus@gmail.com>",
