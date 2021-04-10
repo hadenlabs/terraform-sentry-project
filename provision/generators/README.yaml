@@ -59,11 +59,13 @@ usage: |-
       version = "0.0.0"
 
       providers = {
-        github = github
+        sentry = sentry
       }
 
       name    = "terraform-sentry-project"
-      body    = "project terraform github project."
+      organization    = "slug-organization"
+      team    = "slug-team"
+      platform = "go"
     }
   ```
 
