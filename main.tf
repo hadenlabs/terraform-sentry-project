@@ -2,7 +2,6 @@ resource "sentry_project" "this" {
   organization = var.organization
   name         = lower(var.name)
   team         = var.team
-  slug         = var.slug
   platform     = var.platform
   resolve_age  = 720
 }
