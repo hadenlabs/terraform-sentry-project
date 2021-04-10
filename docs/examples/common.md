@@ -3,7 +3,7 @@
 ```hcl
   module "main" {
     source = "hadenlabs/project/sentry"
-    version = "0.0.0"
+    version = "0.1.0"
 
     providers = {
       sentry = sentry
