@@ -23,7 +23,7 @@ Terraform module to provision an sentry project.
 ```hcl
   module "main" {
     source = "hadenlabs/project/sentry"
-    version = "0.0.0"
+    version = "0.1.0"
 
     providers = {
       sentry = sentry
@@ -40,7 +40,23 @@ Full working examples can be found in [examples](./examples) folder.
 
 ## Examples
 
-### common
+### basic
+
+```hcl
+  module "main" {
+    source = "hadenlabs/project/sentry"
+    version = "0.1.0"
+
+    providers = {
+      sentry = sentry
+    }
+
+    name    = "terraform-sentry-project"
+    organization    = "slug-organization"
+    team    = "slug-team"
+    platform = "go"
+  }
+```
 
  <!-- BEGIN_TF_DOCS -->
 
