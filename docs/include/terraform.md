@@ -37,5 +37,6 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_dsn_public"></a> [dsn\_public](#output\_dsn\_public) | output dsn public sentry |
-| <a name="output_project"></a> [project](#output\_project) | output project name and url |
+| <a name="output_id"></a> [id](#output\_id) | output project id |
+| <a name="output_instance"></a> [instance](#output\_instance) | output instance of project |
 <!-- END_TF_DOCS -->
