@@ -26,11 +26,13 @@ Terraform module to provision an sentry project.
     version = "0.0.0"
 
     providers = {
-      github = github
+      sentry = sentry
     }
 
     name    = "terraform-sentry-project"
-    body    = "project terraform github project."
+    organization    = "slug-organization"
+    team    = "slug-team"
+    platform = "go"
   }
 ```
 
@@ -77,10 +79,11 @@ No modules.
 
 ## Outputs
 
-| Name                                                              | Description                 |
-| ----------------------------------------------------------------- | --------------------------- |
-| <a name="output_dsn_public"></a> [dsn_public](#output_dsn_public) | output dsn public sentry    |
-| <a name="output_project"></a> [project](#output_project)          | output project name and url |
+| Name                                                              | Description                |
+| ----------------------------------------------------------------- | -------------------------- |
+| <a name="output_dsn_public"></a> [dsn_public](#output_dsn_public) | output dsn public sentry   |
+| <a name="output_id"></a> [id](#output_id)                         | output project id          |
+| <a name="output_instance"></a> [instance](#output_instance)       | output instance of project |
 
 <!-- END_TF_DOCS -->
 
