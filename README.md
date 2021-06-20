@@ -12,9 +12,9 @@
 
   -->
 
-# terraform-sentry-project
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/terraform-sentry-project)](https://github.com/hadenlabs/terraform-sentry-project/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/terraform-sentry-project/lint-code)](https://github.com/hadenlabs/terraform-sentry-project/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/terraform-sentry-project)](https://github.com/hadenlabs/terraform-sentry-project/issues) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735)](https://keepachangelog.com) [![Beacon](https://ga-beacon.appspot.com/G-MZEK48EGE8/terraform-sentry-project/readme)](https://github.com/hadenlabs/terraform-sentry-project)
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/hadenlabs/terraform-sentry-project.svg?label=latest&sort=semver)](https://github.com/hadenlabs/terraform-sentry-project/releases) [![Lint](https://github.com/hadenlabs/terraform-sentry-project/actions/workflows/lint.yml/badge.svg?branch=develop)](https://github.com/hadenlabs/terraform-sentry-project/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/terraform-sentry-project.svg)](https://github.com/hadenlabs/terraform-sentry-project/issues) [![Latest Release](https://img.shields.io/github/release/hadenlabs/terraform-sentry-project.svg)](https://github.com/hadenlabs/terraform-sentry-project/releases) [![Beacon](https://ga-beacon.appspot.com/G-MZEK48EGE8/terraform-sentry-project/readme)](https://github.com/hadenlabs/terraform-sentry-project)
+# terraform-sentry-project
 
 Terraform module to provision an sentry project.
 
