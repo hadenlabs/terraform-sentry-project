@@ -13,17 +13,17 @@ func TestProjectBasicSuccess(t *testing.T) {
 	const NAME string = "test-project-sentry"
 	const ORGANIZATION string = "me-urs"
 	const TEAM string = "me"
-  const PLATFORM string = "go"
+	const PLATFORM string = "go"
 
 	terraformOptions := &terraform.Options{
 		// The path to where your Terraform code is located
 		TerraformDir: "project-basic",
 		Upgrade:      true,
 		Vars: map[string]interface{}{
-			"name":  NAME,
+			"name":         NAME,
 			"organization": ORGANIZATION,
-			"team": TEAM,
-      "platform": PLATFORM,
+			"team":         TEAM,
+			"platform":     PLATFORM,
 		},
 	}
 
@@ -33,8 +33,8 @@ func TestProjectBasicSuccess(t *testing.T) {
 	// This will run `terraform init` and `terraform apply` and fail the test if there are any errors
 	terraform.InitAndApply(t, terraformOptions)
 
-	outputId := terraform.Output(t, terraformOptions, "id")
+	outputID := terraform.Output(t, terraformOptions, "id")
 	outputProject := terraform.OutputMap(t, terraformOptions, "project")
 	assert.NotEmpty(t, outputProject, outputProject)
-	assert.NotEmpty(t, outputId, outputId)
+	assert.NotEmpty(t, outputID, outputID)
 }
