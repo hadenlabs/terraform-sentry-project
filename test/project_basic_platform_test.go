@@ -40,6 +40,33 @@ func TestProjectPlatformBasicSuccess(t *testing.T) {
 				platform:     "php",
 			},
 		},
+		{
+			name: "validation platform php laravel",
+			args: args{
+				organization: organizationName,
+				team:         teamName,
+				project:      "terraform-sentry-laravel-platform",
+				platform:     "php-laravel",
+			},
+		},
+		{
+			name: "validation platform python",
+			args: args{
+				organization: organizationName,
+				team:         teamName,
+				project:      "terraform-sentry-python-platform",
+				platform:     "python",
+			},
+		},
+		{
+			name: "validation platform python flask",
+			args: args{
+				organization: organizationName,
+				team:         teamName,
+				project:      "terraform-sentry-flask-platform",
+				platform:     "python-flask",
+			},
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
