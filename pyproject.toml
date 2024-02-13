@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "terraform-sentry-project"
-version = "0.1.0"
+version = "0.1.1"
 description = "terraform sentry project"
 authors = ["Luis Mayta <luis@hadenlabs.com>"]
 license = "LGPL-3.0"
