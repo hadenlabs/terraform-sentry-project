@@ -1,6 +1,6 @@
 {
   "name": "@hadenlabs/terraform-sentry-project",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "terraform-sentry-project for hadenlabs",
   "author": "Luis Mayta <slovacus@gmail.com>",
   "license": "LGPL-3.0",

@@ -34,7 +34,7 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 ```hcl
   module "main" {
     source = "hadenlabs/project/sentry"
-    version = "0.1.0"
+    version = "0.1.1"
 
     providers = {
       sentry = sentry
@@ -63,7 +63,7 @@ Full working examples can be found in [examples](./examples) folder.
 ```hcl
   module "main" {
     source = "hadenlabs/project/sentry"
-    version = "0.1.0"
+    version = "0.1.1"
 
     providers = {
       sentry = sentry
