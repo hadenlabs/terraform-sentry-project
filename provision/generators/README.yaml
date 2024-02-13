@@ -67,7 +67,7 @@ requirements: |-
 # Short description of this project
 description: |-
 
-  Terraform module to provision an github secrets.
+  Terraform module to provision an sentry project.
 
 usages:
   - docs/usage.md
