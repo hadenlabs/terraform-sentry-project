@@ -1,4 +1,11 @@
-### basic
+<!-- Space: Projects -->
+<!-- Parent: TerraformSentryProject -->
+<!-- Title: Examples TerraformSentryProject -->
+<!-- Label: Examples -->
+<!-- Include: ./../disclaimer.md -->
+<!-- Include: ac:toc -->
+
+### Common
 
 ```hcl
   module "main" {
